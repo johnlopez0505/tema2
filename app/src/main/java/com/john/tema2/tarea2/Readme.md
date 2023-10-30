@@ -1,0 +1,85 @@
+# De los apuntes en la presentación, hacer el ejercicio FrameLayout con View.
+
+### Creamos la activity `Tarea2`:
+
+```kotlin
+class Tarea2 : AppCompatActivity() {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_tarea2)
+    }
+}
+```
+### Creamos las view  
+
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".tarea2.Tarea2">
+
+
+
+<View
+    android:layout_width="125dp"
+    android:layout_height="125dp"
+    android:background="#f44336"
+    android:layout_gravity="top|start"/>
+
+<View
+    android:layout_width="125dp"
+    android:layout_height="125dp"
+    android:background="#327B7E"
+    android:layout_gravity="top|center_horizontal"/>/>
+
+<View
+    android:layout_width="125dp"
+    android:layout_height="125dp"
+    android:background="#FFEB3B"
+    android:layout_gravity="top|end"/>/>
+
+<View
+    android:layout_width="125dp"
+    android:layout_height="125dp"
+    android:background="#FF5722"
+    android:layout_gravity="center_vertical|start"/>/>
+
+<View
+    android:layout_width="125dp"
+    android:layout_height="125dp"
+    android:background="#E91E63"
+    android:layout_gravity="center"/>/>
+
+<View
+    android:layout_width="125dp"
+    android:layout_height="125dp"
+    android:background="#8CC81C"
+    android:layout_gravity="center_vertical|end"/>/>
+
+<View
+    android:layout_width="125dp"
+    android:layout_height="125dp"
+    android:background="#009688"
+    android:layout_gravity="bottom|start"/>/>
+
+<View
+    android:layout_width="125dp"
+    android:layout_height="125dp"
+    android:background="#CF0696"
+    android:layout_gravity="bottom|center_horizontal"/>/>
+
+<View
+    android:layout_width="125dp"
+    android:layout_height="125dp"
+    android:background="#7A7877"
+    android:layout_gravity="bottom|end"/>/>
+
+</FrameLayout>
+```
+
+Imagen de ejecucion 
+![img1](imgtarea2.png)

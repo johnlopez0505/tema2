@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">tema2</string>
+    <string name="saltar">Saltar</string>
+    <string name="img1">img1</string>
+    <string name="img2">img2</string>
+    <string name="text">Estamos en la siguiente actividad</string>
+    <string name="text2">Estamos en la siguiente actividad</string>
+</resources>
